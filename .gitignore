@@ -1,0 +1,24 @@
+# Ignore build output and executables
+*.exe
+*.obj
+*.o
+
+# Ignore temporary files
+*.log
+*.tmp
+*.bak
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore MinGW build files
+*.dll
+*.a
+*.lib
+
+# Ignore OS-specific files
+Thumbs.db
+Desktop.ini
+
+# Ignore git files
+.git/
