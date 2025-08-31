@@ -32,7 +32,7 @@ int main() {
     }
 
     std::cout << "UDP server listening on port 8888..." << std::endl;
-    char buffer[1024];
+    char buffer[65507];
     sockaddr_in clientAddr;
     int clientAddrLen = sizeof(clientAddr);
 
